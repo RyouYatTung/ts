@@ -34,3 +34,10 @@ for (let i = 0; i < words.length; i++) {
     foundWord = true;
   }
 }
+
+let numbers = [-10, -1, 12];
+let numberAbobeZero: boolean | number = false;
+
+for (let i = 0; i < numbers.length; i++) {
+  numberAbobeZero = numbers[i];
+}
