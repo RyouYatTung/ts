@@ -3,7 +3,6 @@ class Vehicle {
 
   protected honk(): void {
     console.log("bbbbbbb");
-    console.log("wwww");
   }
 }
 
