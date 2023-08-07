@@ -6,6 +6,30 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>ddd</h1>
+    <ul id="list">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li>10</li>
+    </ul>
+    <button id="button">aa</button>
+
+    <script>
+      const button = document.getElementById("button");
+      const list = document.getElementById("list");
+      const lis = list.querySelectorAll("li");
+
+      if (lis.length >= 6) {
+        for (let i = 6; i > lis.length; i++) {
+          button.remove();
+        }
+      }
+    </script>
   </body>
 </html>
