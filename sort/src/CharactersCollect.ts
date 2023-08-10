@@ -13,5 +13,8 @@ export class Characters {
     const characters = this.data.split("");
 
     const leftHeade = characters[leftIndex];
+    characters[rightIndex] = leftHeade;
+
+    this.data = characters.join("");
   }
 }
